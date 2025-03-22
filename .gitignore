@@ -37,3 +37,6 @@ logs/
 # Ignore temporary files
 *.tmp
 *.temp
+
+data/documents/*
+data/images/*
