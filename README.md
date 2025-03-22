@@ -42,16 +42,6 @@ document_retrieval/
 └── sql_db.py               # Database operations
 ```
 
-## Module Descriptions
-
-- **data/document_processor.py**: Handles document loading, embedding creation, and vectorstore management.
-- **data/image_processor.py**: Manages image operations, including saving and encoding images.
-- **models/model_manager.py**: Manages model operations, including checking for embedding support and multimodal capabilities.
-- **models/query_handler.py**: Processes user queries, handles document retrieval, and manages model interactions.
-- **ui/chat_interface.py**: Handles the Streamlit UI for the chat functionality.
-- **ui/sidebar.py**: Manages thread navigation and sidebar UI.
-- **utils/config.py**: Centralizes all application settings.
-- **utils/logger.py**: Provides logging functionality for the application.
 
 ## Getting Started
 
@@ -177,19 +167,7 @@ You can also process documents from the command line:
 python ingest.py --model deepseek-r1:8b --dir ./my_documents
 ```
 
-## File Structure
 
-- `app_new.py`: Main Streamlit application
-- `sql_db.py`: Database management for threads
-- `ingest.py`: Standalone script for document ingestion
-- `requirements.txt`: Required Python packages
-- `threads.db`: SQLite database for storing threads
-- `vectorstore/`: Directory for storing document embeddings
-- `logger.py`: Logging module for structured logging
-- `dashboard.py`: Dashboard module for visualizing logs
-- `run_dashboard.py`: Script to run the dashboard
-- `logs/`: Directory for log files
-- `backups/`: Directory for database backups
 
 ## Troubleshooting
 
