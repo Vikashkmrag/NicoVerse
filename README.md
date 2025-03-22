@@ -1,6 +1,6 @@
-# Document Retrieval Application
+# Nico Verse
 
-A modular Streamlit application for document retrieval and chat with AI models. This application allows users to upload documents, process them with embeddings, and chat with AI models about the content of those documents. It also supports multimodal interactions with images.
+A sleek and sophisticated platform, inspired by Nico Robin’s enigmatic intellect and unyielding pursuit of knowledge.
 
 ## Features
 
@@ -17,7 +17,7 @@ The application has been organized into a modular structure for better maintaina
 
 ```
 document_retrieval/
-├── app.py                  # Main application entry point
+├── app.py                  # Old Main application entry point
 ├── app_new.py              # New modular application entry point
 ├── config.py               # Global configuration settings
 ├── data/                   # Data storage directory
@@ -96,7 +96,7 @@ The application's behavior can be customized by modifying the settings in `confi
 1. Clone this repository:
 ```
 git clone <repository-url>
-cd document_retrieval
+cd NicoVerse
 ```
 
 2. Install the required dependencies:
@@ -118,7 +118,7 @@ Or use the built-in model management in the app to pull models.
 
 1. Start the Streamlit application:
 ```
-streamlit run app.py
+streamlit run app_new.py
 ```
 
 2. Upload your documents:
@@ -179,7 +179,7 @@ python ingest.py --model deepseek-r1:8b --dir ./my_documents
 
 ## File Structure
 
-- `app.py`: Main Streamlit application
+- `app_new.py`: Main Streamlit application
 - `sql_db.py`: Database management for threads
 - `ingest.py`: Standalone script for document ingestion
 - `requirements.txt`: Required Python packages
@@ -199,6 +199,3 @@ python ingest.py --model deepseek-r1:8b --dir ./my_documents
 - If you get connection errors, make sure Ollama is running with `ollama serve`
 - Check the logs directory for detailed error information
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
