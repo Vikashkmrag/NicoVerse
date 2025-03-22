@@ -1,0 +1,39 @@
+# Ignore database files
+*.db
+
+# Ignore vectorstore directories
+vectorstore/
+
+# Ignore images
+images/*
+
+# Ignore PDF files in documents
+documents/*.pdf
+
+# Ignore all files in documents directory
+documents/*
+
+# Ignore backup files
+backups/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
